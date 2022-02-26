@@ -1,3 +1,10 @@
 function checkAge(name, age) {
-  // your code here
-}
+  if (age >= 21){
+    let mensaje = `Welcome, ${name}!`;
+    return mensaje;
+  } else {
+    let mensaje = `Go home, ${name}!`;
+    return mensaje;
+  };
+};
+
