@@ -1,3 +1,12 @@
 function addFullNameProperty(obj) {
-  // tu codigo aqui
-}
+  obj.fullName = obj.firstName +" "+ obj.lastName;
+  return obj;
+};
+
+var person = {
+  firstName: 'Jade',
+  lastName: 'Smith',
+  fullName: null,
+};
+
+console.log(addFullNameProperty(person));
