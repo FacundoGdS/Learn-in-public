@@ -1,3 +1,8 @@
 function getNthElement(array, n) {
-  // your code here
-}
+  if (array === 0){
+    return undefined;
+  } else {
+    return array[n];
+  };
+};
+

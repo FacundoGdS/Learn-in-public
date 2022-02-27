@@ -1,4 +1,11 @@
 function getLastElement(array) {
   // your code here
-  return 4
-}
+  if (array.length === 0){
+    return undefined;
+  } else {
+    return array[array.length-1];
+  };
+};
+
+var output = getLastElement([1, 2, 3, 4]);
+console.log(output); // --> 4
