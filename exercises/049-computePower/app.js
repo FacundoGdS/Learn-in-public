@@ -6,4 +6,6 @@ function computePower(num, exponent) {
   return result;
 };
 
+//Math. pow
+
 console.log(computePower(2,3));
