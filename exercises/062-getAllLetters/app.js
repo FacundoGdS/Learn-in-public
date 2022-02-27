@@ -1,5 +1,5 @@
 function getAllLetters(str) {
-    return [...str];
+    return str.split('');
     // let newarr = [];
     // let letter = '';
     // for(let i = 0; i < str.length; i++){
@@ -8,6 +8,8 @@ function getAllLetters(str) {
     // };
     // return arr;
 };
+
+//también valía con poner "return [...str]"
 
 var output = getAllLetters('Radagast');
 console.log(output);
